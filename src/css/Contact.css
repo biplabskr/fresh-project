@@ -1,0 +1,252 @@
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    position: relative;
+    top: 0rem;
+    gap: .8rem;
+}
+
+.title{
+    text-align: center;
+    font-size: 4rem;
+    color: aliceblue;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: (250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+    width: 30%;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.section-text-p1 {
+    text-align: center;
+    font-size: 5rem;
+    color: aliceblue;
+    font-weight: bold;
+  }
+
+.contact-info-container p {
+    font-size: 2rem;
+}
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+  }
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+
+@media screen and (width < 1400px) {
+    #contact{
+      height: fit-content;
+      padding-top: 10rem;
+
+    }
+
+    .contact-info-upper-container {
+        width: 40%;
+    }
+
+    .contact-info-container p{
+        font-size: 2rem;
+      }
+
+  }
+
+  @media screen and (width < 1050px) {
+    #contact{
+      height: fit-content;
+      padding-top: 15rem;
+
+    }
+
+  }
+  
+
+  @media screen and (width < 970px) {
+    #contact{
+      height: fit-content;
+      padding-top: 15rem;
+
+    }
+
+    .contact-info-container p{
+        font-size: 1.4rem;
+      }
+
+  }
+
+  @media screen and (width < 700px) {
+    #contact{
+      height: fit-content;
+      padding-top: 15rem;
+
+    }
+
+    .contact-info-container p{
+        font-size: 1rem;
+      }
+
+  }
+
+  
+
+
+  @media screen and (width < 600px) {
+    #contact{
+      height: 40vh;
+      padding-top: 50rem;
+
+    }
+    .contact-info-upper-container{
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p{
+      font-size: .5rem;
+    }
+    .title {
+      font-size: 1.5rem;
+    }
+
+    .section-text-p1 {
+        
+        font-size: 3rem;
+        
+      }
+   
+  }
+
+  @media screen and (width < 303px) {
+    #contact{
+      height: fit-content;
+      padding-top: 44rem;
+
+    }
+
+    .title{
+       
+        font-size: 1rem;
+        
+    }
+
+    .section-text-p1 {
+        
+        font-size: 2rem;
+        
+      }
+
+  }
+
+  @media screen and (width < 300px) {
+    #contact{
+      height: fit-content;
+      padding-top: 50rem;
+
+    }
+
+    .title{
+       
+        font-size: .8rem;
+        
+    }
+
+    .section-text-p1 {
+        
+        font-size: 1.5rem;
+        
+      }
+
+      .contact-info-container p{
+        font-size: .2rem;
+      }
+
+  }
+
+  @media screen and (width < 255px) {
+    #contact{
+      height: fit-content;
+      padding-top: 55rem;
+
+    }
+
+    .title{
+       
+        font-size: .8rem;
+        
+    }
+
+    .section-text-p1 {
+        
+        font-size: 1.5rem;
+        
+      }
+
+      .contact-info-container p{
+        font-size: .2rem;
+      }
+
+  }
+
+  @media (height < 402px) {
+
+    #contact{
+      padding-top: 60rem;
+
+    }
+
+
+    
+  }
+
+  @media (width < 220px) {
+
+    #contact{
+      padding-top: 60rem;
+
+    }
+
+    .title{
+       
+      font-size: .3rem;
+      
+  }
+
+  .section-text-p1 {
+      
+      font-size: .8rem;
+      
+    }
+
+    .contact-info-container p{
+      font-size: .1rem;
+    }
+
+
+    
+  }

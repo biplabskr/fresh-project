@@ -1,0 +1,78 @@
+.skills {
+    position: relative;
+    padding: 0rem 0rem 5rem 0rem;
+}
+
+.skill-box {
+    text-align: center;
+    padding: 5.8rem 4.8rem;
+    margin-top: -6.5rem;
+    background: transparent;
+    border-radius: 6.5rem;
+}
+
+.skills h2 {
+    font-size: 5rem;
+    font-weight: 900;
+    color: #2c6fbb;
+}
+
+.skills p {
+    font-size: 3rem;
+    letter-spacing: .03rem;
+    color: #ffffff;
+    line-height: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+    margin: 1.5rem 0rem 8rem 0rem;
+}
+
+.skill-slide {
+    width: 80%;
+    position: relative;
+    margin: 0rem auto;
+}
+
+.skill-slide .items img {
+    width: 50%;
+    margin: 0 auto 1.7rem auto;
+}
+
+.background-image {
+    top: 30%;
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    
+}
+
+.skill-slide .items h5 {
+    font-size: 2.8rem;
+    color: white;
+    text-shadow: .3rem .3rem black;
+}
+
+/* media queries */
+
+@media (width < 500px) {
+
+    .skills h2{
+
+        font-size: 4rem;
+
+    }
+
+    .skills p{
+
+        font-size: 2rem;
+
+
+    }
+
+    .skill-slide .items h5{
+
+        font-size: 2rem;
+
+    }
+    
+}
+
